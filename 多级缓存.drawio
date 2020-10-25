@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T13:12:28.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Cp2zebgFmFAR4wm224T-" version="13.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-25T13:17:25.528Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="szt_gn3-uIAy9FjUBljT" version="13.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3784" dy="3625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="2397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="Qpe2LVaDGdShcBn4zMtE-0" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;courier&amp;quot; , monospace ; font-size: 10.5pt&quot;&gt;ChainInterface&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontColor=#CC0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="120" width="160" height="40" as="geometry" />
+          <mxGeometry x="560" y="30" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qpe2LVaDGdShcBn4zMtE-1" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;courier&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;ChainCache&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="200" width="160" height="40" as="geometry" />
+          <mxGeometry x="560" y="110" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qpe2LVaDGdShcBn4zMtE-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Qpe2LVaDGdShcBn4zMtE-1" target="Qpe2LVaDGdShcBn4zMtE-0">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="290" y="160" as="sourcePoint" />
-            <mxPoint x="450" y="160" as="targetPoint" />
+            <mxPoint x="490" y="70" as="sourcePoint" />
+            <mxPoint x="650" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qpe2LVaDGdShcBn4zMtE-4" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;courier&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;courier&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;ChainCacheConfig&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="560" y="200" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Qpe2LVaDGdShcBn4zMtE-6" value="" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Qpe2LVaDGdShcBn4zMtE-6" value="" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Qpe2LVaDGdShcBn4zMtE-1" target="Qpe2LVaDGdShcBn4zMtE-4">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="520" y="220" as="sourcePoint" />
-            <mxPoint x="560" y="220" as="targetPoint" />
+            <mxPoint x="720" y="130" as="sourcePoint" />
+            <mxPoint x="760" y="130" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -219,7 +219,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qpe2LVaDGdShcBn4zMtE-51" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;GetName&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;GetType&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;Set&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;MSet&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;SetData&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;MSetData&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;Get&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;GetWithTTL&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;GetData&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;GetDataWithTTL&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;MGet&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;MGetWithTTL&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;MGetData&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;MGetDataWithTTL&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;Delete&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;MDelete&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;Clear&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;GetKeyCreator&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;GetMetrics&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;	&lt;/span&gt;GetMarshaller&lt;/div&gt;" style="html=1;fontColor=#CC0000;fontFamily=Courier New;fontSize=12;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="70" width="210" height="360" as="geometry" />
+          <mxGeometry x="320" y="-20" width="210" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
