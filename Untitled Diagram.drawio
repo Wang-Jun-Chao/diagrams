@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T08:16:50.014Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="OuxvxlWQemqwb-SF_5jY" version="13.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-27T09:47:41.310Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="44CjrpoR-DrgKtBkRBhh" version="13.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MCUVz8PFSjMKoAwYEETB-12" value="审核状态" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CC0000;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="40" width="240" height="80" as="geometry" />
+          <mxGeometry x="40" y="40" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MCUVz8PFSjMKoAwYEETB-14" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="y9QFn7rHhwee2csf8rgc-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -281,14 +281,23 @@
             <mxPoint x="290" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YWj8ctwwKqHEaTYUi_iw-35" value="策略状态" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CC0000;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="280" width="240" height="80" as="geometry" />
+        <mxCell id="YWj8ctwwKqHEaTYUi_iw-35" value="策略发布状态" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CC0000;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="320" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YWj8ctwwKqHEaTYUi_iw-36" value="审核流程" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="240" y="530" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YWj8ctwwKqHEaTYUi_iw-40" value="策略是草稿状态&lt;br&gt;但是不可编辑" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=30;position=0.17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="450" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YWj8ctwwKqHEaTYUi_iw-41" value="白名单测试" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="640" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWj8ctwwKqHEaTYUi_iw-42" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y9QFn7rHhwee2csf8rgc-1" target="YWj8ctwwKqHEaTYUi_iw-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="600" as="sourcePoint" />
+            <mxPoint x="310" y="550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
