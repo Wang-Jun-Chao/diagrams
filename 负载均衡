@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T02:34:05.281Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="888daisKqHeGAGhyMh3U" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T02:37:15.136Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="aJ13NKd7dTZYzdcpPMcn" version="13.9.9" type="github">
   <diagram id="qJNICBouXYX-QmdojJ1K" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -148,6 +148,9 @@
         </mxCell>
         <mxCell id="xG5UAy6WtVS_2yloUW6y-49" value="内部 Nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="240" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xG5UAy6WtVS_2yloUW6y-51" value="所有请求都通过Web-Server&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;1、静态资源都在Web-Server内部进行访问&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;2、后端接口通过Web-Server内部的Ngin进行处理，转换成内部域名进行访问&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="420" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
