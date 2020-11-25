@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T00:58:56.748Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" version="13.10.1" etag="KN4eaTMu5XJbmj6yBCoG" type="github"><diagram id="AU5b2HvdphcxwCnXjJNy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-25T01:38:12.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="2PlkNqcmHsC9N-ygKdUL" version="13.10.1" type="github">
+  <diagram id="AU5b2HvdphcxwCnXjJNy" name="Page-1">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-2" value="老年代" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="740" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-1" value="新生代" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="740" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WkPr_Bd9W4gY_5LVOU1Z-3" target="WkPr_Bd9W4gY_5LVOU1Z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WkPr_Bd9W4gY_5LVOU1Z-3" target="WkPr_Bd9W4gY_5LVOU1Z-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-3" value="Serail&lt;br&gt;单线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WkPr_Bd9W4gY_5LVOU1Z-4" target="WkPr_Bd9W4gY_5LVOU1Z-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WkPr_Bd9W4gY_5LVOU1Z-4" target="WkPr_Bd9W4gY_5LVOU1Z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-4" value="Par New&lt;br&gt;多线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WkPr_Bd9W4gY_5LVOU1Z-5" target="WkPr_Bd9W4gY_5LVOU1Z-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WkPr_Bd9W4gY_5LVOU1Z-5" target="WkPr_Bd9W4gY_5LVOU1Z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-5" value="Parallel Scavenge&lt;br&gt;多线程&lt;br&gt;复制算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WkPr_Bd9W4gY_5LVOU1Z-6" target="WkPr_Bd9W4gY_5LVOU1Z-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-6" value="CMS&lt;br&gt;多线程&lt;br&gt;标记-整理算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-7" value="Serial Old&lt;br&gt;多线程&lt;br&gt;标记-整理算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-8" value="Parallel Old&lt;br&gt;多线程&lt;br&gt;标记-整理算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-9" value="G1&lt;br&gt;多线程&lt;br&gt;分代收集&lt;br&gt;局部：复制&lt;br&gt;整体：标记-整理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="540" y="90" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-10" value="ZGC&lt;br&gt;多线程&lt;br&gt;标记-整理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="660" y="90" width="90" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
