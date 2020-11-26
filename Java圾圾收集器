@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T01:38:12.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="2PlkNqcmHsC9N-ygKdUL" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-26T01:06:22.998Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="IGQobbCI9wnGCa6TGhgN" version="13.10.1" type="github">
   <diagram id="AU5b2HvdphcxwCnXjJNy" name="Page-1">
     <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,8 +52,8 @@
         <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-9" value="G1&lt;br&gt;多线程&lt;br&gt;分代收集&lt;br&gt;局部：复制&lt;br&gt;整体：标记-整理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="540" y="90" width="100" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-10" value="ZGC&lt;br&gt;多线程&lt;br&gt;标记-整理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="660" y="90" width="90" height="140" as="geometry" />
+        <mxCell id="WkPr_Bd9W4gY_5LVOU1Z-10" value="ZGC&lt;br&gt;多线程&lt;br&gt;局部：复制&lt;br&gt;整体：标记-整理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="660" y="90" width="100" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
